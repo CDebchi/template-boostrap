@@ -1,0 +1,201 @@
+body {
+    position: relative; 
+}
+#section1 {
+    width: 100%;
+    min-height:950px;
+    color: #fff;
+    background: url('images/slider_image_home@1x.png');
+    background-size: cover;
+    background-position: center center;    
+    padding: 2%;
+}
+.nav li{
+    display: inline;
+    margin: 30px;
+    cursor: pointer;
+}
+.nav a:hover{
+    color: #D12731;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.nav ul{
+    margin-left: 22%;
+    margin-top: 2%;
+}
+#nav{
+    text-align: center;
+}
+#pamper{
+    margin-top: 19%;    
+}
+#pamper h2{
+    font-size: 28px;
+    text-align:center;
+}
+#pamper p{
+    font-family: 'Questa';
+    text-align: center;
+    color: rgb(230, 227, 227);
+    font-size: 15px;
+    letter-spacing: 2px
+}
+.btnbtn{
+    background: none;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    width: 230px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;    
+    font-size: 15px;
+    margin-top: 3%;
+}
+.btnbtn:hover{
+    border: 1.5px solid #777D7F;
+    color: #777D7F;
+    background: white;
+}
+#section2 {
+    min-height:400px; 
+    width: 100%;
+    background-color:white;
+}
+#titleExplore{
+    text-align: center;
+    color: #D12731;
+    margin-top: 5%;
+    text-decoration:underline;
+    text-decoration-style: solid;
+}
+.s2h1{
+    text-decoration: none;
+    color: #D12731;
+    text-decoration: underline;
+    font-size: 25px;
+    text-shadow: none;
+    margin-top: 5%;
+    text-align:center;
+    margin-bottom: 5%;
+}
+.btnbtnbtn{
+    color: white;
+    background-color: #D12731;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 45px;
+    margin-bottom: 40px;
+    transition : 1s;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btnbtnbtn:hover{
+    border: 1px solid #D12731;
+    color: #D12731;
+    background: none;
+}
+#section3 {
+    min-height:500px;
+    
+}
+#a5a5a5 h5{
+    text-decoration: underline !important;
+    color: white;
+    text-decoration-style: 1px solid white;
+    margin-bottom: 5%;
+}
+#a5a5a5 h2{
+    color: white;
+    font-size: 40px !important;
+    margin-bottom: 5%
+}
+#a5a5a5 p{
+    color: white;
+    text-decoration-style: solid;
+    font-family: 'Questa';
+    margin-bottom: 10%
+}
+#section4 {
+    padding-top:50px;
+    min-height:1000px;
+    background-color: white;
+}
+.card-text {
+    font-family: 'Questa' !important; 
+    color: rgb(199, 202, 204);   
+}
+.card{
+    border: none !important;
+}
+.card-img-top{
+   max-width: 100%;
+   height: auto;
+}
+#section5 {
+    min-height:500px;
+    color: #fff; 
+    background-color: #E9ECEF;
+}
+#section6 {
+    min-height:600px;
+    color: #fff; 
+    background: url(images/news_letter_background_image_home@1x.png) center no-repeat;
+    background-size: cover;
+}
+.ft{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+}
+#button-addon2{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    background: black;
+    font-family:'Questa' !important;
+    font-size: 18px;
+}
+#button-addon2:hover{
+    color: black;
+    border: none;
+    background: #D12731;
+}
+#intextt{
+    width: 350px !important;
+    height: 50px;
+    font-family: 'Questa' !important;
+    text-align:center;
+    font-size: 18px;
+}
+.nav2 a:hover{
+    color: black !important;
+}
+
+
+
+
+
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33.33%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33.33%)
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
